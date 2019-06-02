@@ -5,12 +5,26 @@
 
   - [ ] main app
   - [ ] test cases
-  - [ ] travis file
-  - [ ] api end points
+  - [ ] jenkinsfile
+    - [ ] `groovy`
+    - [ ] `jenkins.yml`
+    - [ ] `jenkins` container
+  - [ ] `api` endpoints
   - [ ] server space
   - [ ] database
+    - [ ] `postgresql` libraries
+    - [ ] `elasticsearch` libraries
   - [ ] security
+    - [ ] container scanning (`quay`, etc.)
   - [ ] `Go` documenter and site release notes
+  - [ ] `docker` orchestration
+  - [ ] `html` templates
+  - [ ] page container modules
+  - [ ] logging
+  - [ ] notification
+  - [ ] user and commercial modules
+
+
 
 ### TL;DR
 
