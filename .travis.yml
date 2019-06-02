@@ -1,0 +1,14 @@
+language: go
+
+matrix:
+  fast_finish: true
+  include:
+    - go: 1.10.x
+      env: GO111MODULE=on
+
+notification:
+  # need to add emails here
+
+  on_success: change
+  on_failure: always
+  on_start: false
