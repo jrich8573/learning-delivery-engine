@@ -3,14 +3,14 @@
 
 ### ToDo
 
-  - [] main app
-  - [] test cases
-  - [] travis file
-  - [] api end points
-  - [] server space
-  - [] database
-  - [] security
-  - [] `Go` documenter and site release notes
+  - [ ] main app
+  - [ ] test cases
+  - [ ] travis file
+  - [ ] api end points
+  - [ ] server space
+  - [ ] database
+  - [ ] security
+  - [ ] `Go` documenter and site release notes
 
 ### TL;DR
 
