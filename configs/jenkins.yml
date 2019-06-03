@@ -8,6 +8,9 @@ matrix:
 
 notification:
   # need to add emails here
+  - email:
+      - jasonrich85@icloud.com
+      - melissabrich@gmail.com
 
   on_success: change
   on_failure: always
