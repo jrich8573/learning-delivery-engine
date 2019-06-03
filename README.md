@@ -4,12 +4,14 @@
 ### ToDo
 
   - [ ] main app
+    - [ ] registration `api` endpoints
+    - [ ] user `api` endpoints
+    - [ ] content `api` endpoints
   - [ ] test cases
   - [ ] jenkinsfile
     - [ ] `groovy`
     - [ ] `jenkins.yml`
     - [ ] `jenkins` container
-  - [ ] `api` endpoints
   - [ ] server space
   - [ ] database
     - [ ] `postgresql` libraries
@@ -19,6 +21,7 @@
   - [ ] `Go` documenter and site release notes
   - [ ] `docker` orchestration
   - [ ] `html` templates
+  - [ ] `React` UI
   - [ ] page container modules
   - [ ] logging
   - [ ] notification
@@ -41,4 +44,4 @@ git clone https://github.com/jrich8573/learning-delivery-engine.git
 git checkout -b $MY_HOT_NEW_FEATURE
 ```
 Another method to contribute is by simply opening an [issue](https://github.com/jrich8573/learning-delivery-engine/issues) within the repo
-using the [`ISSUES-TEMPLATE.md`](.github/ISSUES-TEMPLATE.md) file. 
+using the [`ISSUES-TEMPLATE.md`](.github/ISSUES-TEMPLATE.md) file.
