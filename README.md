@@ -40,4 +40,5 @@ cd ~/my-local-directory/working
 git clone https://github.com/jrich8573/learning-delivery-engine.git
 git checkout -b $MY_HOT_NEW_FEATURE
 ```
-Another method to contribute is by simply opening an [issue](https://github.com/jrich8573/learning-delivery-engine/issues) within the repo.
+Another method to contribute is by simply opening an [issue](https://github.com/jrich8573/learning-delivery-engine/issues) within the repo
+using the [`ISSUES-TEMPLATE.md`](.github/ISSUES-TEMPLATE.md) file. 
