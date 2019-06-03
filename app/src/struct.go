@@ -12,13 +12,13 @@ type loginPayload struct {
 }
 
 type user struct {
-	ID           int      `json:"id"`
-	Username     string   `json:"username"`
-	Firstname    string   `json:"firstname"`
-	Middlename   string   `json:"middlename"`
-	Lastname     string   `json:"lastname"`
-	Organization []string `json:"organization"`
-	Logins       int      `json:"logins"` //count the number if logins
+	ID           int    `json:"id"`
+	Username     string `json:"username"`
+	Firstname    string `json:"firstname"`
+	Middlename   string `json:"middlename"`
+	Lastname     string `json:"lastname"`
+	Organization string `json:"organization"`
+	Logins       int    `json:"logins"` //count the number if logins
 }
 
 type authToken struct {

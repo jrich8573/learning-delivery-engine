@@ -7,15 +7,12 @@ import (
 	//"log"
 	"net/http"
 	//"os"
-	"strconv"
 
 	"github.com/gin-gonic/contrib/static"
 	"github.com/gin-gonic/gin"
 )
 
-var users = []User{
-	// ToDo: build a scalable users arrary
-}
+//var users = new(user)
 
 func main() {
 	// Set the router as the default one shipped with Gin
@@ -49,17 +46,21 @@ func userHandler(c *gin.Context) {
 
 // user handler to retrieve valid users
 func getUsers(c *gin.Context) {
+	c.Header("Content-Type", "application/json")
+	c.JSON(http.StatusOK, gin.H{
+		"message": "User handler is not implemented yet",
+	})
 	//check for a valid user-id
-	if userid, err := strconv.Atoi(c.Param("userID")); err == nil {
-		//find user and increment logins
-		for i := 0; i < len(users); i++ {
-			if users[i].ID == userid {
-				users[i].Logins = users[i].Logins + 1
-			}
-		}
-		c.JSON(http.StatusOK, &users)
-	} else {
-		// new user
-		c.AbortWithStatus(http.StatusNotFound)
-	}
+	// 	if userid, err := strconv.Atoi(c.Param("userID")); err == nil {
+	// 		//find user and increment logins
+	// 		for i := 0; i < len(users); i++ {
+	// 			if users[i].ID == userid {
+	// 				users[i].Logins = users[i].Logins + 1
+	// 			}
+	// 		}
+	// 		c.JSON(http.StatusOK, &users)
+	// 	} else {
+	// 		// new user
+	// 		c.AbortWithStatus(http.StatusNotFound)
+	// 	}
 }
